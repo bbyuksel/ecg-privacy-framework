@@ -91,7 +91,6 @@ Yüksel, B. B. (2026). *A unified framework for secure and intelligent ECG signa
 
 ## 🧭 Quick navigation
 
-- 🎓 Thesis PDF → [`tez_cikti_03032026.pdf`](./tez_cikti_03032026.pdf)  
 - 📊 Poster PDF → [`phd_poster.pdf`](./phd_poster.pdf)  
 - 🧩 Code: [ECG-PPS](https://github.com/bbyuksel/ECG-PPS) · [ecg-biometric-encryption](https://github.com/bbyuksel/ecg-biometric-encryption) · [federated-learning-ecg-homomorphic-encryption](https://github.com/bbyuksel/federated-learning-ecg-homomorphic-encryption)
 
