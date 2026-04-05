@@ -2,110 +2,74 @@
 
 # 🔐 Unified ECG Privacy Framework
 
-### *Secure Biomedical AI · Privacy-Preserving ECG Systems*
-
-[![PhD Thesis](https://img.shields.io/badge/PhD%20Thesis-ITU-003366?style=for-the-badge&logo=readthedocs&logoColor=white)](https://www.itu.edu.tr/)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Research](https://img.shields.io/badge/Focus-Homomorphic%20%7C%20Federated%20%7C%20Chaos-2ea44f?style=for-the-badge)](https://github.com/bbyuksel/ecg-privacy-framework)
 [![Poster](https://img.shields.io/badge/Poster-PDF-FF6B6B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./phd_poster.pdf)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Framework](https://img.shields.io/badge/ecg--privacy--framework-181717?style=for-the-badge&logo=github)](https://github.com/bbyuksel/ecg-privacy-framework)
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5060--6236-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0000-0001-5060-6236)
 
 **Beyazıt Bestami YÜKSEL** · PhD · Secure Biomedical AI · Privacy-Preserving Systems  
 
 [Istanbul Technical University](https://www.itu.edu.tr/) · [Istanbul Provincial Directorate of National Education](https://istanbul.meb.gov.tr/)
 
-[![GitHub bbyuksel](https://img.shields.io/badge/GitHub-bbyuksel-181717?style=flat&logo=github)](https://github.com/bbyuksel)
-<!-- ORCID rozeti: https://orcid.org/YOUR-ID — örnek: [![ORCID](https://img.shields.io/badge/ORCID-0000--0000--0000--0000-A6CE39?style=flat&logo=orcid)](https://orcid.org/0000-0000-0000-0000) -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-bbyuksel-181717?style=flat&logo=github)](https://github.com/bbyuksel)
 
 </div>
 
 ---
 
-## 📌 Overview
+## Repos
 
-This repository is the **research hub** for the **Unified ECG Privacy Framework**: implementations and materials supporting the PhD thesis *A Unified Framework for Secure and Intelligent ECG Signal Processing via Chaotic Encryption, Fully Homomorphic Computation, and Federated Learning* (Istanbul Technical University, February 2026).
+[ecg-privacy-framework](https://github.com/bbyuksel/ecg-privacy-framework) · [ECG-PPS](https://github.com/bbyuksel/ECG-PPS) · [ecg-biometric-encryption](https://github.com/bbyuksel/ecg-biometric-encryption) · [federated-learning-ecg-homomorphic-encryption](https://github.com/bbyuksel/federated-learning-ecg-homomorphic-encryption)
 
-| Asset | Description |
-| :--- | :--- |
-| 📄 [`tez_cikti_03032026.pdf`](./tez_cikti_03032026.pdf) | Full PhD thesis (PDF) |
-| 🖼️ [`phd_poster.pdf`](./phd_poster.pdf) | Conference / defense poster (PDF) |
+[`phd_poster.pdf`](./phd_poster.pdf)
 
 ---
 
-## 🔗 Framework repositories (cross-links)
+## Publications
 
-Central umbrella: **[`ecg-privacy-framework`](https://github.com/bbyuksel/ecg-privacy-framework)** (this research collection).
-
-| Repository | Role in the framework | Link |
-| :--- | :--- | :--- |
-| **ECG-PPS** | ECG signal processing pipeline & secure processing foundations | [![Repo](https://img.shields.io/badge/GitHub-ECG--PPS-181717?logo=github)](https://github.com/bbyuksel/ECG-PPS) |
-| **ecg-biometric-encryption** | Biometric-oriented ECG protection & encryption | [![Repo](https://img.shields.io/badge/GitHub-ecg--biometric--encryption-181717?logo=github)](https://github.com/bbyuksel/ecg-biometric-encryption) |
-| **federated-learning-ecg-homomorphic-encryption** | Federated learning + homomorphic encryption for ECG | [![Repo](https://img.shields.io/badge/GitHub-FL%20%2B%20HE%20ECG-181717?logo=github)](https://github.com/bbyuksel/federated-learning-ecg-homomorphic-encryption) |
-
-```mermaid
-flowchart LR
-  subgraph Framework["Unified ECG Privacy Framework"]
-    A[ECG-PPS] --> U((Integration))
-    B[Biometric encryption] --> U
-    C[Federated + Homomorphic] --> U
-  end
-  U --> T[Thesis & poster materials]
-```
+1. [HEART: A High-Efficiency Adaptive Real-Time Telemonitoring Framework for Secure Electrocardiogram Signal Transmission Using Chaotic Encryption](https://electricajournal.org/index.php/pub/article/view/1329/1305) — Beyazıt Bestami YÜKSEL, Ayşe YILMAZER METİN, 2026  
+2. [Artificial Intelligence Breakthroughs and Data Futures: A Retrospective and Prospective Review](https://dergipark.org.tr/en/download/article-file/4896110) — Beyazıt Bestami YÜKSEL, Ayşe YILMAZER METİN, *APJESS* 14(1), 1–16, 2026  
+3. [Federated learning with homomorphic encryption for secure real time ECG anomaly detection: A multi institutional privacy preserving framework](https://www.sciencedirect.com/science/article/abs/pii/S1746809426001114) — Beyazit Bestami Yuksel, Ayse Yilmazer Metin, *Biomedical Signal Processing and Control* 116, 109557, 2026  
+4. [ECG-PPS: Privacy Preserving Disease Diagnosis and Monitoring System for Real-Time ECG Signals](https://ieeexplore.ieee.org/abstract/document/10871599) — BB YUKSEL, Ayse YILMAZER, Sydney, Australia, 2024  
 
 ---
 
-## 📰 Publication & thesis
-
-### Paper / thesis link
-
-| Type | Link / note |
-| :--- | :--- |
-| **PhD thesis (this repo)** | [Download PDF](./tez_cikti_03032026.pdf) |
-| **Peer-reviewed article** | *Yayınlandığında DOI veya yayıncı bağlantısını buraya ekleyin.* |
-
-> **Not:** Kongre bildirisi veya dergi makalesi yayınlandığında aşağıdaki BibTeX girişine `@article{...}` ekleyebilir ve üstteki tabloya DOI rozetini ekleyebilirsiniz.
-
----
-
-## 📚 Citation (BibTeX)
-
-If you use this framework, thesis, or associated code in your research, please cite:
+## BibTeX
 
 ```bibtex
-@phdthesis{yuksel2026unified,
-  author       = {Y{\"u}ksel, Beyaz{\i}t Bestami},
-  title        = {A Unified Framework for Secure and Intelligent {ECG} Signal Processing via Chaotic Encryption, Fully Homomorphic Computation, and Federated Learning},
-  school       = {Istanbul Technical University},
-  year         = {2026},
-  month        = feb,
-  address      = {Istanbul, T{\"u}rkiye},
-  type         = {{Ph.D.} Thesis},
-  note         = {Department of Computer Engineering. Advisor: Dr. Ay{\c{s}}e Y{\i}lmazer Metin.}
+@article{yuksel2026heart,
+  author  = {Y{\"u}ksel, Beyaz{\i}t Bestami and Y{\i}lmazer Metin, Ay{\c{s}}e},
+  title   = {{HEART}: A High-Efficiency Adaptive Real-Time Telemonitoring Framework for Secure Electrocardiogram Signal Transmission Using Chaotic Encryption},
+  year    = {2026},
+  url     = {https://electricajournal.org/index.php/pub/article/view/1329/1305}
+}
+
+@article{yuksel2026aibreakthroughs,
+  author  = {Y{\"u}ksel, Beyaz{\i}t Bestami and Y{\i}lmazer Metin, Ay{\c{s}}e},
+  title   = {Artificial Intelligence Breakthroughs and Data Futures: A Retrospective and Prospective Review},
+  journal = {Academic Platform Journal of Engineering and Smart Systems},
+  volume  = {14},
+  number  = {1},
+  pages   = {1--16},
+  year    = {2026},
+  url     = {https://dergipark.org.tr/en/download/article-file/4896110}
+}
+
+@article{yuksel2026federatedhe,
+  author  = {Yuksel, Beyazit Bestami and Yilmazer Metin, Ayse},
+  title   = {Federated learning with homomorphic encryption for secure real time {ECG} anomaly detection: A multi institutional privacy preserving framework},
+  journal = {Biomedical Signal Processing and Control},
+  volume  = {116},
+  pages   = {109557},
+  year    = {2026},
+  url     = {https://www.sciencedirect.com/science/article/abs/pii/S1746809426001114}
+}
+
+@misc{yuksel2024ecgpps,
+  author = {Yuksel, BB and Yilmazer, Ayse},
+  title  = {{ECG-PPS}: Privacy Preserving Disease Diagnosis and Monitoring System for Real-Time {ECG} Signals},
+  year   = {2024},
+  note   = {Sydney, Australia},
+  url    = {https://ieeexplore.ieee.org/abstract/document/10871599}
 }
 ```
-
-**APA (7th, örnek)**  
-Yüksel, B. B. (2026). *A unified framework for secure and intelligent ECG signal processing via chaotic encryption, fully homomorphic computation, and federated learning* [Doctoral dissertation, Istanbul Technical University].
-
----
-
-## 🧭 Quick navigation
-
-- 📊 Poster PDF → [`phd_poster.pdf`](./phd_poster.pdf)  
-- 🧩 Code: [ECG-PPS](https://github.com/bbyuksel/ECG-PPS) · [ecg-biometric-encryption](https://github.com/bbyuksel/ecg-biometric-encryption) · [federated-learning-ecg-homomorphic-encryption](https://github.com/bbyuksel/federated-learning-ecg-homomorphic-encryption)
-
----
-
-## 📄 License
-
-Specify a license in a `LICENSE` file if you open-source companion code here; thesis text rights usually follow your university’s policy.
-
----
-
-<div align="center">
-
-**Research Showcase** · *Premium academic README template for the unified ECG privacy research line*
-
-[![Stars](https://img.shields.io/github/stars/bbyuksel/ecg-privacy-framework?style=social)](https://github.com/bbyuksel/ecg-privacy-framework)
-
-</div>
